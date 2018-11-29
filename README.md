@@ -2,13 +2,13 @@
 
 ## Setup
 
-Clone, unpack and open BookStore.sln in Visual Studio 2017.
+Clone, unpack and open BookStore.sln in Visual Studio 2017. Run the project. Test get requests in an application like Postman. 
 
-## Uses
+## NuGet dependencies
 
 - .NET Core 2.1.1
 
-- .NET Core OData 7.0.1
+- .NET Core OData 7.1
 
 - EntityFramework Core 2.1.4
 
