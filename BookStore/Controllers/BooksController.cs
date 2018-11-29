@@ -65,7 +65,7 @@ namespace BookStore.Controllers
         ///        or when you didn't even include nameOptional in the odata query, it will work as well.
         /// QUERY EXAMPLES: 
         ///        Returns the book: odata/Books/GetBookByAuthorWithRequiredParameter(nameRequired=null)
-        ///        204 No Content: data/Books/GetBookByAuthorWithRequiredParameter(nameRequired=null, nameOptional=null)
+        ///        204 No Content: odata/Books/GetBookByAuthorWithRequiredParameter(nameRequired=null, nameOptional=null)
         /// </summary>
         /// <param name="nameRequired"></param>
         /// <param name="nameOptional"></param>
